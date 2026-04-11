@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Iwata Gothic';
+    src: url('./lib/fonts/iwata-gothic-old-pro-medium.otf') format('opentype');
+    font-weight: 500; /* Medium */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Iwata Gothic';
+    src: url('./lib/fonts/iwata-gothic-old-pro-demi-bold.otf') format('opentype');
+    font-weight: 600; /* Demi-bold */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Iwata Gothic';
+    src: url('./lib/fonts/iwata-gothic-old-pro-extra-bold.otf') format('opentype');
+    font-weight: 800; /* Extra-bold */
+    font-display: swap;
+}
+
+@theme {
+    --font-display: "Iwata Gothic", sans-serif;
+
+    --font-display--font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    --font-display--font-variation-settings: "opsz" 32;
+}
+
+@utility font-A {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+@utility font-B {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 64px;
+}
+
+@utility font-C{
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 16px;
+    color: #8E8E93;
+}
+
+@utility font-D{
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 32px;
+}
