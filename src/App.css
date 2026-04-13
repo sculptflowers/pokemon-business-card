@@ -2,21 +2,21 @@
 
 @font-face {
     font-family: 'Iwata Gothic';
-    src: url('./lib/fonts/iwata-gothic-old-pro-medium.otf') format('opentype');
+    src: url('./lib/fonts/iwata-gothic-old-pro-medium.woff2') format('woff2');
     font-weight: 500; /* Medium */
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Iwata Gothic';
-    src: url('./lib/fonts/iwata-gothic-old-pro-demi-bold.otf') format('opentype');
+    src: url('./lib/fonts/iwata-gothic-old-pro-demi-bold.woff2') format('woff2');
     font-weight: 600; /* Demi-bold */
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Iwata Gothic';
-    src: url('./lib/fonts/iwata-gothic-old-pro-extra-bold.otf') format('opentype');
+    src: url('./lib/fonts/iwata-gothic-old-pro-extra-bold.woff2') format('woff2');
     font-weight: 800; /* Extra-bold */
     font-display: swap;
 }
